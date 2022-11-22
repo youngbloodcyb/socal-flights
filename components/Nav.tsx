@@ -11,9 +11,6 @@ export default function Nav() {
                             <a href="/">Flights</a>
                         </li>
                         <li className="text-sm">
-                            <a href="/">Sign Up</a>
-                        </li>
-                        <li className="text-sm">
                             <a href="/">Login</a>
                         </li>
                         <li>
