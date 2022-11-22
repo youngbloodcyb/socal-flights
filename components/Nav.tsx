@@ -1,7 +1,31 @@
 export default function Nav() {
     return (
-        <nav className="">
-            <div className="w-screen"></div>
+        <nav className="font-mono">
+            <div className="w-screen h-20 flex flex-row items-center">
+                <div className="w-1/2" id="home-button-container">
+                    <h1 className="px-10">SoCal*Flights</h1>
+                </div>
+                <div id="link-container" className=" w-1/2 flex justify-end">
+                    <ul className="flex flex-row gap-4 px-4">
+                        <li>
+                            <a href="/">See Flights</a>
+                        </li>
+                        <li>
+                            <a href="/">Sign Up</a>
+                        </li>
+                        <li>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="white"
+                            stroke-width="2"
+                        />
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     )
 } 
