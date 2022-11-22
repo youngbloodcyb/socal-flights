@@ -3,24 +3,24 @@ export default function Nav() {
         <nav className="font-mono shadow-sm shadow-white">
             <div className="w-screen h-20 flex flex-row items-center">
                 <div className="w-1/2" id="home-button-container">
-                    <h1 className="px-4">SoCal*Flights</h1>
+                    <h1 className="ml-10">SoCal*Flights</h1>
                 </div>
                 <div id="link-container" className=" w-1/2 flex justify-end">
-                    <ul className="flex flex-row gap-4 px-2">
-                        <li>
+                    <ul className="flex flex-row gap-4 px-4">
+                        <li className="text-sm">
                             <a href="/">Flights</a>
                         </li>
-                        <li>
+                        <li className="text-sm">
                             <a href="/">Sign Up</a>
                         </li>
-                        <li>
+                        <li className="text-sm">
                             <a href="/">Login</a>
                         </li>
                         <li>
                             <a href="/">
                                 <svg
                                     // xmlns="http://www.w3.org/2000/svg"
-                                    className="h-6 w-5"
+                                    className="h-5 w-5"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"

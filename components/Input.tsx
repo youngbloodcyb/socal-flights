@@ -2,7 +2,7 @@ export default function Input() {
     return (
         <div className="flex flex-row mt-4  w-full">
             <label
-                className="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 w-2/3 hover:w-3/4 transition-all duration-300 ease-in-out"
+                className="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-red-600 focus-within:ring-1 focus-within:ring-red-600 w-2/3 hover:w-3/4 transition-all duration-300 ease-in-out"
                 >
                 <span className="text-xs font-medium text-gray-700"> Email </span>
 
