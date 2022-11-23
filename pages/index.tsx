@@ -12,9 +12,11 @@ export default function Home() {
   return (
     <div className='font-mono'>
       <Nav/>
-      <div className='mx-10'>
+      <div className='mx-10 my-10'>
         <ContentBlock headline={headline} subhead={subheadline} body={mainText}/>  
-        <Input/>
+        <div className='my-10'>
+          <Input/>
+        </div>
       </div>
     </div>
   )
