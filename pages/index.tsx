@@ -3,6 +3,8 @@ import Image from "next/image";
 import Nav from "../components/Nav";
 import Input from "../components/Input";
 import ContentBlock from "../components/ContentBlock";
+import Footer from "../components/Footer";
+
 
 const headline = "SoCal * Flights";
 const mainText =
@@ -17,9 +19,9 @@ export default function Home() {
           SoCal Flights | The Best Deals on Flights from Southern California
         </title>
       </Head>
-      <div className="font-mono">
-        <Nav />
-        <div className="mx-10 my-10">
+      <Nav />
+      <div className="font-mono p-4 md:p-12">
+        <div className="">
           <ContentBlock
             headline={headline}
             subhead={subheadline}
@@ -29,6 +31,7 @@ export default function Home() {
             <Input />
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
