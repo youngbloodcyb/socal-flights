@@ -13,7 +13,7 @@ const subheadline = "Finding the best flight deals from Southern California.";
 
 export default function Home() {
   return (
-    <div>
+    <div className="dark:bg-[#35465C]">
       <Head>
         <title>
           SoCal Flights | The Best Deals on Flights from Southern California
